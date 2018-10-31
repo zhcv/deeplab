@@ -17,8 +17,8 @@
 
 import tensorflow as tf
 
-from deeplab import common
-from deeplab import model
+import common
+import model
 
 
 class DeeplabModelTest(tf.test.TestCase):
