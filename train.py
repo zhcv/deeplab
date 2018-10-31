@@ -19,11 +19,13 @@ See model.py for more details and usage.
 
 import six
 import tensorflow as tf
-from deeplab import common
-from deeplab import model
-from deeplab.datasets import segmentation_dataset
-from deeplab.utils import input_generator
-from deeplab.utils import train_utils
+
+import _init_paths
+import common
+import model
+from datasets import segmentation_dataset
+from utils import input_generator
+from utils import train_utils
 from deployment import model_deploy
 
 slim = tf.contrib.slim

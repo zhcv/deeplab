@@ -22,11 +22,13 @@ import os.path
 import time
 import numpy as np
 import tensorflow as tf
-from deeplab import common
-from deeplab import model
-from deeplab.datasets import segmentation_dataset
-from deeplab.utils import input_generator
-from deeplab.utils import save_annotation
+import common
+
+import _init_paths
+import model
+from datasets import segmentation_dataset
+from utils import input_generator
+from utils import save_annotation
 
 slim = tf.contrib.slim
 
