@@ -17,6 +17,7 @@
 
 import tensorflow as tf
 
+import _init_paths
 import common
 import model
 
