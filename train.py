@@ -20,13 +20,13 @@ See model.py for more details and usage.
 import six
 import tensorflow as tf
 
-import _init_paths
+# import _init_paths
 import common
 import model
 from datasets import segmentation_dataset
 from utils import input_generator
 from utils import train_utils
-from deployment import model_deploy
+import model_deploy
 
 slim = tf.contrib.slim
 
